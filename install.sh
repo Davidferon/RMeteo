@@ -20,7 +20,7 @@ npm run build
 sed -i 's/background-color:#2a5f7e/background-color:#'$(openssl rand -hex 3)'/' build/static/css/*
 sed -i 's/background-color: #2a5f7e/background-color:#'$(openssl rand -hex 3)'/' build/static/css/*
 
-sudo cp -r ./build /var/www/reactmeteo
+cp -r ./build /var/www/reactmeteo
 
 popd
 
